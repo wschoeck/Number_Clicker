@@ -1,0 +1,179 @@
+body {
+
+  font-size: 12Px;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+
+}
+
+h1 {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #ffde44;
+
+}
+
+h1:hover {
+
+  color: #fff8d5;
+
+}
+
+h2 {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #1c1c1c;
+
+}
+
+h3 {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #1c1c1c;
+
+}
+
+#plussieben {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #ffde44;
+
+}
+
+#plusneun {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #ffde44;
+
+}
+
+#pluszwei {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #ffde44;
+
+}
+
+#welldone {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #1c1c1c;
+
+}
+
+#plus {
+
+  font-size: 8rem;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 800;
+  line-height: 2rem;
+  color: #1c1c1c;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.result {
+  grid-area: result;
+  grid-column-start:1;
+  grid-column-end:5;
+  grid-row-start:1;
+  grid-row-end:1;
+  text-align: center;
+  background-color: #ffde44;
+
+}
+
+.number_1 {
+  grid-area: number_1;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:2;
+  grid-row-end:2;
+  text-align: center;
+  cursor: pointer
+
+}
+
+
+.number_2 {
+  grid-area: number_2;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:2;
+  grid-row-end:2;
+  text-align: center;
+  cursor: pointer
+
+}
+
+.number_3 {
+  grid-area: number_3;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:3;
+  grid-row-end:3;
+  text-align: center;
+  cursor: pointer
+
+}
+
+.number_4 {
+  grid-area: number_4;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:3;
+  grid-row-end:3;
+  text-align: center;
+  cursor: pointer
+
+}
+
+.plus {
+  grid-area: plus;
+  grid-column-start:2;
+  grid-column-end:3;
+  grid-row-start:4;
+  grid-row-end:4;
+  text-align: center;
+
+}
+
+.mal {
+  grid-area: plus;
+  grid-column-start:3;
+  grid-column-end:4;
+  grid-row-start:4;
+  grid-row-end:4;
+  text-align: center;
+
+}
+
+.hidden {
+  display: none;
+}
